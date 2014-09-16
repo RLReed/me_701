@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## This will move a given file to the trash located in ~/
+
 echo "Enter a filename to be trashed"
 read filename
 if [ -e $filename ];
